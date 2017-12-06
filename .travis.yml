@@ -14,7 +14,7 @@ before_script:
 
   - sed -i'' "s~githubrepo~https://${github}:x-oauth-basic@github.com/${UName}/${PName}.git~" _config.yml
 
-  - git clone https://github.com/frostfan/hexo-theme-polarbear themes/polarbear
+  - git clone https://github.com/giscafer/hexo-theme-cafe themes/cafe
   # - ls
   # - pwd
   # - cp -rf source/themes_config.yml themes/next/_config.yml
@@ -35,4 +35,4 @@ branches:
 env:
  global:
    - UName: FymBLOG
-   - PName: blog-1
+   - PName: blog-2
